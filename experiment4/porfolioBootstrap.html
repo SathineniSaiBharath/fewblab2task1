@@ -1,0 +1,211 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+    </head>
+    <body class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="w-100 text-center">
+                    <a class="navbar-brand d-block" href="#">Bharathreddy's Portfolio</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#feedback">Feedback</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <div class="container mt-5">
+            <section id="introduction" class="mb-5">
+                <h2 class="text-center mb-4">Introduction</h2>
+                <div class="p-4 ">
+                    <h4 class="text-center mb-4">Hello there!</h4>
+                    <h5 class="text-center">I'm <b>Sai Bharath</b>, a passionate Frontend Web Developer with expertise in creating responsive and user-friendly web applications.</h5>
+                </div>
+            </section>
+            
+            <section id="skills" class="mb-5">
+                <h2 class="text-center mb-4">Skills</h2>
+                <div class="d-flex flex-wrap gap-3 justify-content-center">
+                    <span class="badge bg-primary p-3 fs-6">Java</span>
+                    <span class="badge bg-primary p-3 fs-6">Node.js</span>
+                    <span class="badge bg-primary p-3 fs-6">React</span>
+                    <span class="badge bg-primary p-3 fs-6">Web Development</span>
+                    <span class="badge bg-primary p-3 fs-6">Angular</span>
+                    <span class="badge bg-primary p-3 fs-6">Bootstrap</span>
+                </div>
+            </section>
+            
+            <section id="projects" class="mb-5">
+                <h2 class="text-center mb-4">Projects/Work Experience</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm hover-effect">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Maven Web Project</h5>
+                                <p class="card-text text-muted">A web application built using Maven with responsive design and modern UI elements.</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a href="https://github.com/SathineniSaiBharath/SampleMavenWebProject.git" class="btn btn-primary">
+                                        View Project
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm hover-effect">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Maven Java Project</h5>
+                                <p class="card-text text-muted">A Java-based application leveraging Maven for dependency management and build automation.</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a href="https://github.com/SathineniSaiBharath/SampleMavenJavaProject.git" class="btn btn-primary">
+                                        View Project
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="achievements" class="mb-5">
+                <h2 class="text-center mb-4">Achievements</h2>
+                <div id="achievementCarousel" class="carousel slide shadow-sm rounded" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#achievementCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Achievement 1"></button>
+                        <button type="button" data-bs-target="#achievementCarousel" data-bs-slide-to="1" aria-label="Achievement 2"></button>
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active py-5 bg-primary bg-opacity-10">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="text-center px-4">
+                                    <h4>2nd Runner-up</h4>
+                                    <p class="mb-0">Frontend Development Hackathon - NIT Warangal 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item py-5 bg-success bg-opacity-10">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="text-center px-4">
+                                    <h4>1st Runner-up</h4>
+                                    <p class="mb-0">Frontend Development Hackathon - GRIET Hyderabad 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#achievementCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#achievementCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <section id="education" class="mb-5">
+                <h2 class="text-center mb-4">Education</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover shadow-sm border rounded">
+                        <thead class="table-primary">
+                            <tr>
+                                <th scope="col">Degree</th>
+                                <th scope="col">Institution</th>
+                                <th scope="col">Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bachelor's in Computer Science</td>
+                                <td>Keshav Memorial University</td>
+                                <td>2022 - Present</td>
+                            </tr>
+                            <tr>
+                                <td>Intermediate</td>
+                                <td>Bhashyam Inter College</td>
+                                <td>2020 - 2022</td>
+                            </tr>
+                            <tr>
+                                <td>SSC</td>
+                                <td>Bhashyam High School</td>
+                                <td>2020</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            
+            <section id="feedback" class="mb-5">
+                <h2 class="text-center mb-4">Feedback</h2>
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <form class="mx-auto">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="fback" class="form-label">Feedback:</label>
+                                <textarea class="form-control" id="fback" rows="4" placeholder="Share your thoughts..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">Submit Feedback</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section id="contact" class="mb-4 text-center">
+                <h2 class="mb-4">Contact Information</h2>
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5>Email:</h5>
+                                <p><a href="mailto:bharathreddy@gmail.com" class="text-decoration-none">bharathreddy@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5>Phone:</h5>
+                                <p><a href="tel:8672882889" class="text-decoration-none">8672882889</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5>GitHub:</h5>
+                                <p><a href="https://github.com/SathineniSaiBharath" class="text-decoration-none">SathineniSaiBharath</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </body>
+    </html>
